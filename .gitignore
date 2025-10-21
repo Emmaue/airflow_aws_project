@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.pyc
+
+# Environments
+.env
+venv/
+.venv/
+env/
+ENV/
+*.pem
+.venv.bak/
+
+
+# AWS & Credentials
+.aws/
+*.json
+*.csv
+*credentials*
+*access_key*
+*secret_key*
+*config*
+
+
+# VS Code
+.vscode/
+.settings/
+
+# Airflow
+airflow/logs/
+airflow/plugins/__pycache__/
+airflow/dags/__pycache__/
+airflow/plugins/*.pyc
+
+# System
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
