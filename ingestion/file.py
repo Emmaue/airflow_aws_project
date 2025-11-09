@@ -11,7 +11,7 @@ def main():
     SOURCE_BUCKET = 'aws-learning-source-bucket'
     DEST_BUCKET = 'aws-learning-destination-bucket'
     
-    source_key = 'raw/candidates/cand1.csv'
+    source_key = 'raw/cand1.csv'
     dest_key = 'cleaned/cand1.csv'
     
     try:
